@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<center>, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Quizomania</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+<body onload="hide();">
+   <center>
+   <h1> Maths Quiz</h1>
+    <div  class="login_div1">
+        <h3>Login to your player account</h3>
+        <input type="text"  class="form-control" placeholder=" enter your account" id="quiz_account1">
+        <label>Enter your player name</label>
+        <input type="text"  class="form-control" placeholder=" enter player1's name" id="quiz_player1">
+     <br>
+     <button style="width: 30%;" class="btn btn-pimary" onclick="addaccount();"> Add another account</button>
+     <br>
+    </div>
+
+    <div class="login_div1" id="add">
+        <h3>Login to friend's player account</h3>
+        <input type="text"  class="form-control" placeholder=" enter friend's account" id="quiz_account2">
+        <label>Enter friend's player name</label>
+        <input type="text"  class="form-control" placeholder="enter player2's name" id="quiz_player2">
+     <br>
+    </div>
+    <button style="width: 30%;" class="btn btn-primary" onclick="signinuser()">login</button>
+   </center> 
+</body>
+</html>
